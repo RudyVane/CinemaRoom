@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CinemaTests" tests="1" skipped="0" failures="1" errors="0" timestamp="2023-04-19T07:39:49" hostname="DESKTOP-F1L3TA3" time="10.049">
+  <properties/>
+  <testcase name="start" classname="CinemaTests" time="10.049">
+    <failure message="java.lang.AssertionError: Wrong answer in test #2&#10;&#10;The JSON element at path &quot;/available_seats/0&quot; should contain a key &quot;price&quot;&#10;&#10;Full JSON:&#10;{&#10;  &quot;total_rows&quot;: 9,&#10;  &quot;total_columns&quot;: 9,&#10;  &quot;available_seats&quot;: [&#10;    {&#10;      &quot;row&quot;: 1,&#10;      &quot;column&quot;: 1&#10;    },&#10;    {&#10;      &quot;row&quot;: 1,&#10;      &quot;column&quot;: 2&#10;    },&#10;    {&#10;      &quot;row&quot;: 1,&#10;      &quot;column&quot;: 3&#10;    },&#10;    {&#10;      &quot;row&quot;: 1,&#10;      &quot;column&quot;: 4&#10;    },&#10;    {&#10;      &quot;row&quot;: 1,&#10;      &quot;column&quot;: 5&#10;    },&#10;    {&#10;      &quot;row&quot;: 1,&#10;      &quot;column&quot;: 6&#10;    },&#10;    {&#10;      &quot;row&quot;: 1,&#10;      &quot;column&quot;: 7&#10;    },&#10;    {&#10;      &quot;row&quot;: 1,&#10;      &quot;column&quot;: 8&#10;    },&#10;    {&#10;      &quot;row&quot;: 1,&#10;      &quot;column&quot;: 9&#10;    },&#10;    {&#10;      &quot;row&quot;: 2,&#10;      &quot;column&quot;: 1&#10;    },&#10;    {&#10;      &quot;row&quot;: 2,&#10;      &quot;column&quot;: 2&#10;    },&#10;    {&#10;      &quot;row&quot;: 2,&#10;      &quot;column&quot;: 3&#10;    },&#10;    {&#10;      &quot;row&quot;: 2,&#10;      &quot;column&quot;: 4&#10;    },&#10;    {&#10;      &quot;row&quot;: 2,&#10;      &quot;column&quot;: 5&#10;    },&#10;    {&#10;      &quot;row&quot;: 2,&#10;      &quot;column&quot;: 6&#10;    },&#10;    {&#10;      &quot;row&quot;: 2,&#10;      &quot;column&quot;: 7&#10;    },&#10;    {&#10;      &quot;row&quot;: 2,&#10;      &quot;column&quot;: 8&#10;    },&#10;    {&#10;      &quot;row&quot;: 2,&#10;      &quot;column&quot;: 9&#10;    },&#10;    {&#10;      &quot;row&quot;: 3,&#10;      &quot;column&quot;: 1&#10;    },&#10;    {&#10;      &quot;row&quot;: 3,&#10;      &quot;column&quot;: 2&#10;    },&#10;    {&#10;      &quot;row&quot;: 3,&#10;      &quot;column&quot;: 3&#10;    },&#10;    {&#10;      &quot;row&quot;: 3,&#10;      &quot;column&quot;: 4&#10;    },&#10;    {&#10;      &quot;row&quot;: 3,&#10;      &quot;column&quot;: 5&#10;    },&#10;    {&#10;      &quot;row&quot;: 3,&#10;      &quot;column&quot;: 6&#10;    },&#10;    {&#10;      &quot;row&quot;: 3,&#10;      &quot;column&quot;: 7&#10;    },&#10;    {&#10;      &quot;row&quot;: 3,&#10;      &quot;column&quot;: 8&#10;    },&#10;    {&#10;      &quot;row&quot;: 3,&#10;      &quot;column&quot;: 9&#10;    },&#10;    {&#10;      &quot;row&quot;: 4,&#10;      &quot;column&quot;: 1&#10;    },&#10;    {&#10;      &quot;row&quot;: 4,&#10;      &quot;column&quot;: 2&#10;    },&#10;    {&#10;      &quot;row&quot;: 4,&#10;      &quot;column&quot;: 3&#10;    },&#10;    {&#10;      &quot;row&quot;: 4,&#10;      &quot;column&quot;: 4&#10;    },&#10;    {&#10;      &quot;row&quot;: 4,&#10;      &quot;column&quot;: 5&#10;    },&#10;    {&#10;      &quot;row&quot;: 4,&#10;      &quot;column&quot;: 6&#10;    },&#10;    {&#10;      &quot;row&quot;: 4,&#10;      &quot;column&quot;: 7&#10;    },&#10;    {&#10;      &quot;row&quot;: 4,&#10;      &quot;column&quot;: 8&#10;    },&#10;    {&#10;      &quot;row&quot;: 4,&#10;      &quot;column&quot;: 9&#10;    },&#10;    {&#10;      &quot;row&quot;: 5,&#10;      &quot;column&quot;: 1&#10;    },&#10;    {&#10;      &quot;row&quot;: 5,&#10;      &quot;column&quot;: 2&#10;    },&#10;    {&#10;      &quot;row&quot;: 5,&#10;      &quot;column&quot;: 3&#10;    },&#10;    {&#10;      &quot;row&quot;: 5,&#10;      &quot;column&quot;: 4&#10;    },&#10;    {&#10;      &quot;row&quot;: 5,&#10;      &quot;column&quot;: 5&#10;    },&#10;    {&#10;      &quot;row&quot;: 5,&#10;      &quot;column&quot;: 6&#10;    },&#10;    {&#10;      &quot;row&quot;: 5,&#10;      &quot;column&quot;: 7&#10;    },&#10;    {&#10;      &quot;row&quot;: 5,&#10;      &quot;column&quot;: 8&#10;    },&#10;    {&#10;      &quot;row&quot;: 5,&#10;      &quot;column&quot;: 9&#10;    },&#10;    {&#10;      &quot;row&quot;: 6,&#10;      &quot;column&quot;: 1&#10;    },&#10;    {&#10;      &quot;row&quot;: 6,&#10;      &quot;column&quot;: 2&#10;    },&#10;    {&#10;      &quot;row&quot;: 6,&#10;      &quot;column&quot;: 3&#10;    },&#10;    {&#10;      &quot;row&quot;: 6,&#10;      &quot;column&quot;: 4&#10;    },&#10;    {&#10;      &quot;row&quot;: 6,&#10;      &quot;column&quot;: 5&#10;    },&#10;    {&#10;      &quot;row&quot;: 6,&#10;      &quot;column&quot;: 6&#10;    },&#10;    {&#10;      &quot;row&quot;: 6,&#10;      &quot;column&quot;: 7&#10;    },&#10;    {&#10;      &quot;row&quot;: 6,&#10;      &quot;column&quot;: 8&#10;    },&#10;    {&#10;      &quot;row&quot;: 6,&#10;      &quot;column&quot;: 9&#10;    },&#10;    {&#10;      &quot;row&quot;: 7,&#10;      &quot;column&quot;: 1&#10;    },&#10;    {&#10;      &quot;row&quot;: 7,&#10;      &quot;column&quot;: 2&#10;    },&#10;    {&#10;      &quot;row&quot;: 7,&#10;      &quot;column&quot;: 3&#10;    },&#10;    {&#10;      &quot;row&quot;: 7,&#10;      &quot;column&quot;: 4&#10;    },&#10;    {&#10;      &quot;row&quot;: 7,&#10;      &quot;column&quot;: 5&#10;    },&#10;    {&#10;      &quot;row&quot;: 7,&#10;      &quot;column&quot;: 6&#10;    },&#10;    {&#10;      &quot;row&quot;: 7,&#10;      &quot;column&quot;: 7&#10;    },&#10;    {&#10;      &quot;row&quot;: 7,&#10;      &quot;column&quot;: 8&#10;    },&#10;    {&#10;      &quot;row&quot;: 7,&#10;      &quot;column&quot;: 9&#10;    },&#10;    {&#10;      &quot;row&quot;: 8,&#10;      &quot;column&quot;: 1&#10;    },&#10;    {&#10;      &quot;row&quot;: 8,&#10;      &quot;column&quot;: 2&#10;    },&#10;    {&#10;      &quot;row&quot;: 8,&#10;      &quot;column&quot;: 3&#10;    },&#10;    {&#10;      &quot;row&quot;: 8,&#10;      &quot;column&quot;: 4&#10;    },&#10;    {&#10;      &quot;row&quot;: 8,&#10;      &quot;column&quot;: 5&#10;    },&#10;    {&#10;      &quot;row&quot;: 8,&#10;      &quot;column&quot;: 6&#10;    },&#10;    {&#10;      &quot;row&quot;: 8,&#10;      &quot;column&quot;: 7&#10;    },&#10;    {&#10;      &quot;row&quot;: 8,&#10;      &quot;column&quot;: 8&#10;    },&#10;    {&#10;      &quot;row&quot;: 8,&#10;      &quot;column&quot;: 9&#10;    },&#10;    {&#10;      &quot;row&quot;: 9,&#10;      &quot;column&quot;: 1&#10;    },&#10;    {&#10;      &quot;row&quot;: 9,&#10;      &quot;column&quot;: 2&#10;    },&#10;    {&#10;      &quot;row&quot;: 9,&#10;      &quot;column&quot;: 3&#10;    },&#10;    {&#10;      &quot;row&quot;: 9,&#10;      &quot;column&quot;: 4&#10;    },&#10;    {&#10;      &quot;row&quot;: 9,&#10;      &quot;column&quot;: 5&#10;    },&#10;    {&#10;      &quot;row&quot;: 9,&#10;      &quot;column&quot;: 6&#10;    },&#10;    {&#10;      &quot;row&quot;: 9,&#10;      &quot;column&quot;: 7&#10;    },&#10;    {&#10;      &quot;row&quot;: 9,&#10;      &quot;column&quot;: 8&#10;    },&#10;    {&#10;      &quot;row&quot;: 9,&#10;      &quot;column&quot;: 9&#10;    }&#10;  ]&#10;}" type="java.lang.AssertionError">java.lang.AssertionError: Wrong answer in test #2
+
+The JSON element at path &quot;/available_seats/0&quot; should contain a key &quot;price&quot;
+
+Full JSON:
+{
+  &quot;total_rows&quot;: 9,
+  &quot;total_columns&quot;: 9,
+  &quot;available_seats&quot;: [
+    {
+      &quot;row&quot;: 1,
+      &quot;column&quot;: 1
+    },
+    {
+      &quot;row&quot;: 1,
+      &quot;column&quot;: 2
+    },
+    {
+      &quot;row&quot;: 1,
+      &quot;column&quot;: 3
+    },
+    {
+      &quot;row&quot;: 1,
+      &quot;column&quot;: 4
+    },
+    {
+      &quot;row&quot;: 1,
+      &quot;column&quot;: 5
+    },
+    {
+      &quot;row&quot;: 1,
+      &quot;column&quot;: 6
+    },
+    {
+      &quot;row&quot;: 1,
+      &quot;column&quot;: 7
+    },
+    {
+      &quot;row&quot;: 1,
+      &quot;column&quot;: 8
+    },
+    {
+      &quot;row&quot;: 1,
+      &quot;column&quot;: 9
+    },
+    {
+      &quot;row&quot;: 2,
+      &quot;column&quot;: 1
+    },
+    {
+      &quot;row&quot;: 2,
+      &quot;column&quot;: 2
+    },
+    {
+      &quot;row&quot;: 2,
+      &quot;column&quot;: 3
+    },
+    {
+      &quot;row&quot;: 2,
+      &quot;column&quot;: 4
+    },
+    {
+      &quot;row&quot;: 2,
+      &quot;column&quot;: 5
+    },
+    {
+      &quot;row&quot;: 2,
+      &quot;column&quot;: 6
+    },
+    {
+      &quot;row&quot;: 2,
+      &quot;column&quot;: 7
+    },
+    {
+      &quot;row&quot;: 2,
+      &quot;column&quot;: 8
+    },
+    {
+      &quot;row&quot;: 2,
+      &quot;column&quot;: 9
+    },
+    {
+      &quot;row&quot;: 3,
+      &quot;column&quot;: 1
+    },
+    {
+      &quot;row&quot;: 3,
+      &quot;column&quot;: 2
+    },
+    {
+      &quot;row&quot;: 3,
+      &quot;column&quot;: 3
+    },
+    {
+      &quot;row&quot;: 3,
+      &quot;column&quot;: 4
+    },
+    {
+      &quot;row&quot;: 3,
+      &quot;column&quot;: 5
+    },
+    {
+      &quot;row&quot;: 3,
+      &quot;column&quot;: 6
+    },
+    {
+      &quot;row&quot;: 3,
+      &quot;column&quot;: 7
+    },
+    {
+      &quot;row&quot;: 3,
+      &quot;column&quot;: 8
+    },
+    {
+      &quot;row&quot;: 3,
+      &quot;column&quot;: 9
+    },
+    {
+      &quot;row&quot;: 4,
+      &quot;column&quot;: 1
+    },
+    {
+      &quot;row&quot;: 4,
+      &quot;column&quot;: 2
+    },
+    {
+      &quot;row&quot;: 4,
+      &quot;column&quot;: 3
+    },
+    {
+      &quot;row&quot;: 4,
+      &quot;column&quot;: 4
+    },
+    {
+      &quot;row&quot;: 4,
+      &quot;column&quot;: 5
+    },
+    {
+      &quot;row&quot;: 4,
+      &quot;column&quot;: 6
+    },
+    {
+      &quot;row&quot;: 4,
+      &quot;column&quot;: 7
+    },
+    {
+      &quot;row&quot;: 4,
+      &quot;column&quot;: 8
+    },
+    {
+      &quot;row&quot;: 4,
+      &quot;column&quot;: 9
+    },
+    {
+      &quot;row&quot;: 5,
+      &quot;column&quot;: 1
+    },
+    {
+      &quot;row&quot;: 5,
+      &quot;column&quot;: 2
+    },
+    {
+      &quot;row&quot;: 5,
+      &quot;column&quot;: 3
+    },
+    {
+      &quot;row&quot;: 5,
+      &quot;column&quot;: 4
+    },
+    {
+      &quot;row&quot;: 5,
+      &quot;column&quot;: 5
+    },
+    {
+      &quot;row&quot;: 5,
+      &quot;column&quot;: 6
+    },
+    {
+      &quot;row&quot;: 5,
+      &quot;column&quot;: 7
+    },
+    {
+      &quot;row&quot;: 5,
+      &quot;column&quot;: 8
+    },
+    {
+      &quot;row&quot;: 5,
+      &quot;column&quot;: 9
+    },
+    {
+      &quot;row&quot;: 6,
+      &quot;column&quot;: 1
+    },
+    {
+      &quot;row&quot;: 6,
+      &quot;column&quot;: 2
+    },
+    {
+      &quot;row&quot;: 6,
+      &quot;column&quot;: 3
+    },
+    {
+      &quot;row&quot;: 6,
+      &quot;column&quot;: 4
+    },
+    {
+      &quot;row&quot;: 6,
+      &quot;column&quot;: 5
+    },
+    {
+      &quot;row&quot;: 6,
+      &quot;column&quot;: 6
+    },
+    {
+      &quot;row&quot;: 6,
+      &quot;column&quot;: 7
+    },
+    {
+      &quot;row&quot;: 6,
+      &quot;column&quot;: 8
+    },
+    {
+      &quot;row&quot;: 6,
+      &quot;column&quot;: 9
+    },
+    {
+      &quot;row&quot;: 7,
+      &quot;column&quot;: 1
+    },
+    {
+      &quot;row&quot;: 7,
+      &quot;column&quot;: 2
+    },
+    {
+      &quot;row&quot;: 7,
+      &quot;column&quot;: 3
+    },
+    {
+      &quot;row&quot;: 7,
+      &quot;column&quot;: 4
+    },
+    {
+      &quot;row&quot;: 7,
+      &quot;column&quot;: 5
+    },
+    {
+      &quot;row&quot;: 7,
+      &quot;column&quot;: 6
+    },
+    {
+      &quot;row&quot;: 7,
+      &quot;column&quot;: 7
+    },
+    {
+      &quot;row&quot;: 7,
+      &quot;column&quot;: 8
+    },
+    {
+      &quot;row&quot;: 7,
+      &quot;column&quot;: 9
+    },
+    {
+      &quot;row&quot;: 8,
+      &quot;column&quot;: 1
+    },
+    {
+      &quot;row&quot;: 8,
+      &quot;column&quot;: 2
+    },
+    {
+      &quot;row&quot;: 8,
+      &quot;column&quot;: 3
+    },
+    {
+      &quot;row&quot;: 8,
+      &quot;column&quot;: 4
+    },
+    {
+      &quot;row&quot;: 8,
+      &quot;column&quot;: 5
+    },
+    {
+      &quot;row&quot;: 8,
+      &quot;column&quot;: 6
+    },
+    {
+      &quot;row&quot;: 8,
+      &quot;column&quot;: 7
+    },
+    {
+      &quot;row&quot;: 8,
+      &quot;column&quot;: 8
+    },
+    {
+      &quot;row&quot;: 8,
+      &quot;column&quot;: 9
+    },
+    {
+      &quot;row&quot;: 9,
+      &quot;column&quot;: 1
+    },
+    {
+      &quot;row&quot;: 9,
+      &quot;column&quot;: 2
+    },
+    {
+      &quot;row&quot;: 9,
+      &quot;column&quot;: 3
+    },
+    {
+      &quot;row&quot;: 9,
+      &quot;column&quot;: 4
+    },
+    {
+      &quot;row&quot;: 9,
+      &quot;column&quot;: 5
+    },
+    {
+      &quot;row&quot;: 9,
+      &quot;column&quot;: 6
+    },
+    {
+      &quot;row&quot;: 9,
+      &quot;column&quot;: 7
+    },
+    {
+      &quot;row&quot;: 9,
+      &quot;column&quot;: 8
+    },
+    {
+      &quot;row&quot;: 9,
+      &quot;column&quot;: 9
+    }
+  ]
+}
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.hyperskill.hstest.stage.StageTest.start(StageTest.java:203)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$2.run(TestWorker.java:176)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</failure>
+  </testcase>
+  <system-out><![CDATA[?[1;31m
+Start test 1?[0m
+?[0;34m
+?[0m?[0;34m  .   ____          _            __ _ _
+?[0m?[0;34m /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+?[0m?[0;34m( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+?[0m?[0;34m \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+?[0m?[0;34m  '  |____| .__|_| |_|_| |_\__, | / / / /
+?[0m?[0;34m =========|_|==============|___/=/_/_/_/
+?[0m?[0;34m :: Spring Boot ::                (v2.5.6)
+?[0m?[0;34m
+?[0m?[0;34m2023-04-19 09:39:51.584  INFO 13500 --- [    Test worker] cinema.Main                              : Starting Main using Java 17.0.6 on DESKTOP-F1L3TA3 with PID 13500 (started by Gebruiker in C:\Users\Gebruiker\IdeaProjects\Cinema Room REST Service (Java)\Cinema Room REST Service (Java)\task)
+?[0m?[0;34m2023-04-19 09:39:51.595  INFO 13500 --- [    Test worker] cinema.Main                              : No active profile set, falling back to default profiles: default
+?[0m?[0;34m2023-04-19 09:39:55.568  INFO 13500 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 28852 (http)
+?[0m?[0;34m2023-04-19 09:39:55.599  INFO 13500 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+?[0m?[0;34m2023-04-19 09:39:55.601  INFO 13500 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+?[0m?[0;34m2023-04-19 09:39:55.917  INFO 13500 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+?[0m?[0;34m2023-04-19 09:39:55.918  INFO 13500 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4171 ms
+?[0m?[0;34m2023-04-19 09:39:57.953  INFO 13500 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+?[0m?[0;34m2023-04-19 09:39:58.072  INFO 13500 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 28852 (http) with context path ''
+?[0m?[0;34m2023-04-19 09:39:58.136  INFO 13500 --- [    Test worker] cinema.Main                              : Started Main in 7.804 seconds (JVM running for 10.018)
+?[0;34m2023-04-19 09:39:59.154  INFO 13500 --- [io-28852-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+?[0m?[0;34m2023-04-19 09:39:59.155  INFO 13500 --- [io-28852-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+?[0m?[0;34m2023-04-19 09:39:59.159  INFO 13500 --- [io-28852-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+?[0m?[1;31m
+Start test 2?[0m
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
